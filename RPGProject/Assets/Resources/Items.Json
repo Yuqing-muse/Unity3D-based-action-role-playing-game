@@ -1,0 +1,279 @@
+﻿[
+        {
+            "id": 1,
+            "name": "红彤彤的苹果",
+            "type": "Consumable",
+            "quality": "Common",
+            "capacity": 20,
+            "description": "补水又充饥的水果",
+            "buyPrice": 5,
+            "sellPrice": 8,
+            "sprite": "Sprites/Items/apple",
+            "hp":10,
+            "mp": 0
+        },
+        {
+            "id": 2,
+            "name": "武林秘籍之移形换影",
+            "type": "Equipment",
+            "quality": "Rare",
+
+            "capacity": 20,
+            "description": "阅读后可以增加敏捷度",
+            "buyPrice": 20,
+            "sellPrice": 15,
+            "sprite": "Sprites/Items/book",
+                "strength":10,
+		"defense":10,
+		"agility":20,
+		"stamina": 10,
+		"equipType":"Head"
+        },
+        {
+            "id": 3,
+            "name": "蓬蓬软软的大面包",
+            "type": "Consumable",
+            "quality": "Common",
+
+            "capacity": 20,
+            "description": "补充体力的旅途必需品",
+            "buyPrice": 10,
+            "sellPrice": 8,
+            "sprite": "Sprites/Items/food",
+             "hp":10,
+            "mp": 0
+
+        },
+    {
+        "id": 4,
+        "name": "水",
+        "type": "Consumable",
+        "quality": "Common",
+
+        "capacity": 20,
+        "description": "旅途必需品",
+        "buyPrice": 5,
+        "sellPrice": 5,
+        "sprite": "Sprites/Items/water",
+            "hp":10,
+            "mp": 0
+    },
+    {
+        "id": 5,
+        "name": "小红瓶",
+        "type": "Consumable",
+        "quality": "Common",
+
+        "capacity": 20,
+        "description": "喝下去，血量回来！",
+        "buyPrice": 10,
+        "sellPrice": 5,
+        "sprite": "Sprites/Items/hp",
+             "hp":10,
+            "mp": 0
+    },
+    {
+        "id": 6,
+        "name": "小蓝瓶",
+        "type": "Consumable",
+        "quality": "Common",
+
+        "capacity": 20,
+        "description": "猛加蓝！",
+        "buyPrice": 15,
+        "sellPrice":10,
+        "sprite": "Sprites/Items/mp",
+        "hp":0,
+            "mp": 10
+    },
+    {
+        "id": 7,
+        "name": "咖啡豆",
+        "type": "Consumable",
+        "quality": "Rare",
+
+        "capacity": 20,
+        "description": "吃下咖啡豆让你体力充沛",
+        "buyPrice": 25,
+        "sellPrice": 20,
+        "sprite": "Sprites/Items/coffee",
+        "hp": 25,
+        "mp": 0
+    },
+    {
+        "id": 8,
+        "name": "金刚盔甲",
+        "type": "Equipment",
+        "quality": "Rare",
+
+        "capacity": 1,
+        "description": "穿上后就百毒不侵，防御力突突增高",
+        "buyPrice": 50,
+        "sellPrice": 30,
+        "sprite": "Sprites/Items/armor",
+        "strength": 10,
+        "defense": 40,
+        "agility": 5,
+        "stamina": 10,
+        "equipType": "Chest"
+    },
+    {
+        "id": 9,
+        "name": "极速战靴",
+        "type": "Equipment",
+        "quality": "Rare",
+
+        "capacity": 3,
+        "description": "提高你的速度与敏捷度",
+        "buyPrice": 25,
+        "sellPrice": 30,
+        "sprite": "Sprites/Items/boots",
+        "strength": 10,
+        "defense": 10,
+        "agility": 25,
+        "stamina": 10,
+        "equipType": "Boots"
+    },
+    {
+        "id": 10,
+        "name": "神奇头盔",
+        "type": "Equipment",
+        "quality": "Rare",
+
+        "capacity": 3,
+        "description": "保护你聪明的小脑瓜",
+        "buyPrice": 30,
+        "sellPrice": 30,
+        "sprite": "Sprites/Items/helmets",
+        "strength": 10,
+        "defense": 25,
+        "agility": 10,
+        "stamina": 10,
+        "equipType": "Head"
+    },
+    {
+        "id": 11,
+        "name": "神圣者之裤",
+        "type": "Equipment",
+        "quality": "Common",
+
+        "capacity": 3,
+        "description": "在寒风呼啸中守卫老寒腿",
+        "buyPrice": 20,
+        "sellPrice": 10,
+        "sprite": "Sprites/Items/pants",
+        "strength": 10,
+        "defense": 25,
+        "agility": 10,
+        "stamina": 10,
+        "equipType": "Leg"
+    },
+    {
+        "id": 12,
+        "name": "勇者金腰带",
+        "type": "Equipment",
+        "quality": "Rare",
+
+        "capacity": 3,
+        "description": "让腰暖暖的坚硬无比",
+        "buyPrice": 30,
+        "sellPrice": 30,
+        "sprite": "Sprites/Items/belts",
+        "strength": 10,
+        "defense": 25,
+        "agility": 10,
+        "stamina": 10,
+        "equipType": "Belt"
+    },
+    {
+        "id": 13,
+        "name": "海洋之心",
+        "type": "Consumable",
+        "quality": "Rare",
+
+        "capacity": 20,
+        "description": "它会给你带来幸运和精神",
+        "buyPrice": 30,
+        "sellPrice": 30,
+        "sprite": "Sprites/Items/gem",
+        "hp": 10,
+        "mp": 20
+        
+    },
+    {
+        "id": 14,
+        "name": "",
+        "type": "Equipment",
+        "quality": "Legendary",
+        "description": "戴上它，你将更显高贵",
+        "capacity": 10,
+        "buyPrice": 30,
+        "sellPrice": 20,
+        "sprite": "Sprites/Items/necklace",
+       "strength":10,
+		"defense":10,
+		"agility":20,
+		"stamina": 10,
+		"equipType":"Neck"
+    },
+    {
+        "id": 15,
+         "name": "尚方宝剑",
+        "type": "Weapon",
+        "quality": "Epic",
+        "description": "上除妖魔，下斩鬼怪",
+        "capacity": 10,
+        "buyPrice": 40,
+        "sellPrice": 20,
+        "sprite": "Sprites/Items/sword",
+		"damage":40,
+		"weaponType":"MainHand"
+    },
+    {
+        "id": 16,
+       "name": "魔戒",
+        "type": "Equipment",
+        "quality": "Rare",
+        "description": "霍比特人传下来的魔戒",
+        "capacity": 10,
+        "buyPrice": 30,
+        "sellPrice": 20,
+        "sprite": "Sprites/Items/rings",
+		"strength":20,
+		"defense":10,
+		"agility":10,
+		"stamina": 10,
+		"equipType":"Ring"
+    },
+    {
+        "id": 17,
+        "name": "上古卷轴",
+        "type": "Equipment",
+        "quality": "Epic",
+
+        "capacity": 10,
+        "description": "打通任督二脉和所有穴位 全方位提高",
+        "buyPrice": 30,
+        "sellPrice": 30,
+        "sprite": "Sprites/Items/scroll",
+        "strength": 30,
+        "defense": 25,
+        "agility": 30,
+        "stamina": 30,
+        "equipType": "Head"
+    },
+    {
+        "id": 18,
+        "name": "香喷喷烤肉",
+        "type": "Consumable",
+        "quality": "Rare",
+
+        "capacity": 20,
+        "description": "隔壁小孩都馋哭了",
+        "buyPrice": 30,
+        "sellPrice": 30,
+        "sprite": "Sprites/Items/meat",
+          "hp":20,
+            "mp": 0
+    }
+     ]
